@@ -35,3 +35,5 @@ Usa l'Ultimate: Durante il tuo turno, puoi gridare la tua mossa finale per caric
 
 Vinci il Match: Regole classiche, ma con lo stile dei tuoi anime preferiti.
 
+
+## Prossime informazioni verranno aggiunte a breve
