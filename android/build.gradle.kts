@@ -22,3 +22,15 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // In Kotlin DSL si usano le parentesi e i doppi apici
+        classpath("com.android.tools.build:gradle:7.3.0")
+        classpath("com.google.gms:google-services:4.3.15")
+    }
+}
